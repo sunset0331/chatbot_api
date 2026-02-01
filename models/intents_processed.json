@@ -1,0 +1,259 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "What's up",
+                "How are you",
+                "Is anyone there?",
+                "Howdy",
+                "Hi there",
+                "Hola"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! Nice to meet you. How can I assist?",
+                "Greetings! How may I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care",
+                "Catch you later",
+                "I'm leaving",
+                "Have a good day",
+                "See ya",
+                "Gotta go"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care!",
+                "Bye! Come back if you need anything!",
+                "Take care! It was nice talking to you!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks a lot",
+                "Thank you so much",
+                "I appreciate it",
+                "Thanks for helping"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime! Is there anything else?",
+                "My pleasure! Let me know if you need more help."
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "What are you",
+                "Who are you",
+                "What can you do",
+                "Tell me about yourself",
+                "What is your purpose",
+                "What do you do",
+                "How do you work"
+            ],
+            "responses": [
+                "I'm an AI chatbot designed to assist you with various queries!",
+                "I'm a virtual assistant here to help answer your questions.",
+                "I'm an intelligent chatbot built with deep learning to understand and respond to your needs."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your hours",
+                "When are you open",
+                "Business hours",
+                "What time do you open",
+                "Working hours",
+                "Opening hours"
+            ],
+            "responses": [
+                "I'm available 24/7! Feel free to chat anytime.",
+                "I'm always here to help, day or night!",
+                "As a virtual assistant, I'm available around the clock."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact you",
+                "Contact information",
+                "Phone number",
+                "Email address",
+                "How to reach you",
+                "Customer support"
+            ],
+            "responses": [
+                "You can reach our support team at support@example.com",
+                "Contact us at contact@example.com or call 1-800-EXAMPLE",
+                "For support, email us at help@example.com"
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "What are your prices",
+                "How much does it cost",
+                "Pricing",
+                "What's the price",
+                "Cost",
+                "How much",
+                "Subscription plans"
+            ],
+            "responses": [
+                "Our pricing varies based on your needs. Visit our pricing page for details!",
+                "We offer flexible plans starting from $9.99/month.",
+                "Check out our website for the latest pricing information."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help",
+                "I need help",
+                "Can you help me",
+                "Support",
+                "I have a problem",
+                "Something's wrong",
+                "Issue"
+            ],
+            "responses": [
+                "Of course! Tell me what you need help with.",
+                "I'm here to help! What seems to be the problem?",
+                "Sure, I'd be happy to assist. What do you need?"
+            ]
+        },
+        {
+            "tag": "products",
+            "patterns": [
+                "What products do you have",
+                "Show me products",
+                "What do you sell",
+                "Product catalog",
+                "Available products",
+                "What can I buy"
+            ],
+            "responses": [
+                "We offer a wide range of products! Visit our catalog for more details.",
+                "Check out our products section on the website.",
+                "We have many great products available. What category interests you?"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order",
+                "Order status",
+                "Track my order",
+                "Shipping status",
+                "When will my order arrive",
+                "Order tracking"
+            ],
+            "responses": [
+                "Please provide your order ID and I'll check the status for you.",
+                "You can track your order using the tracking link sent to your email.",
+                "Enter your order number to get the latest shipping updates."
+            ]
+        },
+        {
+            "tag": "returns",
+            "patterns": [
+                "Return policy",
+                "How to return",
+                "Can I return",
+                "Refund",
+                "Exchange policy",
+                "Return an item",
+                "Get a refund"
+            ],
+            "responses": [
+                "We offer 30-day returns on most items. Visit our returns page for details.",
+                "You can initiate a return through your account dashboard.",
+                "Our return policy allows exchanges within 30 days of purchase."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Say something funny",
+                "Do you know any jokes",
+                "Joke please",
+                "I need a laugh"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? He was outstanding in his field!",
+                "What do you call a fake noodle? An impasta!",
+                "Why don't eggs tell jokes? They'd crack each other up!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather",
+                "Weather today",
+                "Is it going to rain",
+                "Temperature",
+                "Weather forecast",
+                "How's the weather"
+            ],
+            "responses": [
+                "I don't have real-time weather data, but you can check weather.com!",
+                "For accurate weather info, I recommend checking a weather service.",
+                "I can't check the weather right now, but try asking your phone's assistant!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "What should I call you",
+                "Do you have a name",
+                "Who am I talking to",
+                "Your name"
+            ],
+            "responses": [
+                "I'm ChatBot, your virtual assistant!",
+                "You can call me ChatBot. How can I help?",
+                "I'm ChatBot, nice to meet you!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "How old are you",
+                "What is your age",
+                "When were you created",
+                "When were you born",
+                "Your age"
+            ],
+            "responses": [
+                "I'm a timeless AI, but I was created recently!",
+                "Age is just a number for an AI like me!",
+                "I'm as old as the latest update!"
+            ]
+        }
+    ]
+}
